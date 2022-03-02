@@ -1,0 +1,23 @@
+body {
+  font-family: Roboto;
+  font-style: normal;
+  color: black;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+}
+
+@font-face {
+  font-family: Shrikhand;
+  src: url(/police/Shrikhand/Shrikhand-Regular.ttf);
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(/police/roboto/Roboto-Regular.ttf);
+}
+
+ul {
+  list-style-type: none;
+}
+/*# sourceMappingURL=style.css.map */
