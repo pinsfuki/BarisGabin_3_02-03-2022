@@ -35,6 +35,26 @@ a {
   color: black;
 }
 
+.header__nav__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 1.5em;
+  background-color: #EAEAEA;
+  width: 100%;
+  z-index: 1;
+}
+
+.header__nav__text i {
+  margin-right: 45px;
+}
+
 .header__nav {
   display: -webkit-box;
   display: -ms-flexbox;
