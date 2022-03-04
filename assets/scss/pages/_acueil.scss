@@ -11,3 +11,36 @@
         margin-right: 45px;
     }   
 }
+
+.aside__top{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background-color: #f6f6f6;
+
+        h1{
+            width: 50%;
+            text-align: center;
+            font-size: 26px ;
+            margin-top: 50px;
+            margin-bottom: 0;
+        }
+
+        p{
+            width: 65%;
+            text-align: center;
+            font-size: 20px;
+            color: #707070;
+        }
+
+        button {
+            border-radius: 30px;
+            width: 250px;
+            padding: 15px;
+            margin-bottom: 60px;
+            background-color: #9356DC;
+            color: white;
+            font-size: 18px;
+
+        }
+}
