@@ -43,3 +43,56 @@
             font-size: 23px;
         }
 }
+
+.nav__fonctionnement    {
+
+    h1{
+        margin-left: 30px;
+        font-size: 36px;
+    }
+
+    ul{
+        padding: 0 45px 0 ;
+        font-size: 21px;
+    }
+
+    li{
+        display: flex;
+        align-items: center;
+        justify-content:flex-start;
+        background-color: #F6F6F6;
+        margin: 25px 0px 25px 0;
+        padding: 10px;
+        border-radius: 20px;
+
+        &:hover{
+            background-color: #F5EDFF;
+
+            i{
+                color: #9356dc;
+            }
+        }
+
+
+    }
+
+    li :nth-child(1){
+        position: absolute;
+        left: 30px;
+        color: white;
+        background-color: #9356dc;
+        border: 1px solid #9356dc;
+        border-radius: 100%;
+        padding: 5px 10px;
+
+    }
+
+    li :nth-child(2){
+        margin-left: 40px;
+        margin-right: 35px;
+        font-size: 25px;
+        color: #636363;
+    }
+
+}
+

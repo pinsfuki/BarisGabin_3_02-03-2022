@@ -95,6 +95,57 @@ a {
   font-size: 23px;
 }
 
+.nav__fonctionnement h1 {
+  margin-left: 30px;
+  font-size: 36px;
+}
+
+.nav__fonctionnement ul {
+  padding: 0 45px 0;
+  font-size: 21px;
+}
+
+.nav__fonctionnement li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  background-color: #F6F6F6;
+  margin: 25px 0px 25px 0;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.nav__fonctionnement li:hover {
+  background-color: #F5EDFF;
+}
+
+.nav__fonctionnement li:hover i {
+  color: #9356dc;
+}
+
+.nav__fonctionnement li :nth-child(1) {
+  position: absolute;
+  left: 30px;
+  color: white;
+  background-color: #9356dc;
+  border: 1px solid #9356dc;
+  border-radius: 100%;
+  padding: 5px 10px;
+}
+
+.nav__fonctionnement li :nth-child(2) {
+  margin-left: 40px;
+  margin-right: 35px;
+  font-size: 25px;
+  color: #636363;
+}
+
 .header__nav {
   display: -webkit-box;
   display: -ms-flexbox;
