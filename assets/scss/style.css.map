@@ -6,7 +6,8 @@
         "base/_body.scss",
         "pages/_acueil.scss",
         "layout/_header.scss",
-        "layout/_footer.scss"
+        "layout/_footer.scss",
+        "pages/_francaise.scss"
     ],
     "names": [],
     "file": "style.css"
