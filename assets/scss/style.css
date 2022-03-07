@@ -189,10 +189,14 @@ a {
 
 .section ul img {
   border-radius: 15px 15px 0 0;
-  width: 500px;
+  width: 100%;
   -webkit-box-shadow: 0px -3px 10px grey;
           box-shadow: 0px -3px 10px grey;
   height: 350px;
+}
+
+.section li {
+  width: 100%;
 }
 
 .section figcaption {
@@ -209,6 +213,7 @@ a {
       -ms-flex-direction: column;
           flex-direction: column;
   padding-left: 25px;
+  position: relative;
 }
 
 .section figcaption :nth-child(2) {
@@ -266,31 +271,9 @@ a {
   color: #9356dc;
 }
 
-.section__coeur--5 {
-  position: absolute;
-  font-size: 35px;
-  right: 70px;
-  margin-top: 50px;
-}
-
-.section__coeur--5:hover {
-  color: #9356dc;
-}
-
-.section__coeur--6 {
-  position: absolute;
-  font-size: 35px;
-  right: 70px;
-  margin-top: 50px;
-}
-
-.section__coeur--6:hover {
-  color: #9356dc;
-}
-
 .section__nouveau--1 {
   position: absolute;
-  top: 1170px;
+  margin-top: -415px;
   right: 70px;
   background-color: #99e2d0;
   padding: 10px 15px;
@@ -301,8 +284,8 @@ a {
 
 .section__nouveau--2 {
   position: absolute;
-  top: 1650px;
   right: 70px;
+  margin-top: -415px;
   background-color: #99e2d0;
   padding: 10px 15px;
   font-size: 20px;
