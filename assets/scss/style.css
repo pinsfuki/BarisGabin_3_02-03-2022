@@ -294,6 +294,28 @@ a {
   border-radius: 5px;
 }
 
+.header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: -25px;
+}
+
+.header__nav h1 {
+  font-size: 45px;
+  font-family: Shrikhand;
+  margin-bottom: 0px;
+  -webkit-box-shadow: 1px 20px 20px #bfbfbf;
+          box-shadow: 1px 20px 20px #bfbfbf;
+  width: 100%;
+  text-align: center;
+  z-index: 2;
+}
+
 footer {
   background-color: #353535;
   color: white;
@@ -329,27 +351,5 @@ footer a i {
 
 footer a p {
   margin: 0;
-}
-
-.header__nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  margin-top: -25px;
-}
-
-.header__nav h1 {
-  font-size: 45px;
-  font-family: Shrikhand;
-  margin-bottom: 0px;
-  -webkit-box-shadow: 1px 20px 20px #bfbfbf;
-          box-shadow: 1px 20px 20px #bfbfbf;
-  width: 100%;
-  text-align: center;
-  z-index: 2;
 }
 /*# sourceMappingURL=style.css.map */
