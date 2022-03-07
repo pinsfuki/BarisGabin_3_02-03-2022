@@ -316,6 +316,16 @@ a {
   z-index: 2;
 }
 
+.header__nav ul {
+  padding-left: 0;
+}
+
+.header__nav img {
+  width: 25px;
+  height: 25px;
+  margin: -45px 0px 35px 35px;
+}
+
 footer {
   background-color: #353535;
   color: white;
