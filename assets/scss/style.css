@@ -303,6 +303,8 @@ a {
   font-size: 1.6em;
   font-family: Shrikhand;
   margin-bottom: 0px;
+  margin-top: 35px;
+  padding-bottom: 10px;
   -webkit-box-shadow: 1px 20px 20px #bfbfbf;
           box-shadow: 1px 20px 20px #bfbfbf;
   width: 100%;
@@ -312,12 +314,13 @@ a {
 
 .header__nav ul {
   padding-left: 0;
+  margin-top: 0;
 }
 
 .header__nav img {
   width: 15px;
   height: 15px;
-  margin: -44px 0px 28px 35px;
+  margin: -44px 0px 36px 35px;
 }
 
 footer {
@@ -328,7 +331,7 @@ footer {
 
 footer h3 {
   font-family: Shrikhand;
-  font-size: 26px;
+  font-size: 1.2em;
   margin-left: 40px;
   padding-top: 35px;
 }
@@ -340,7 +343,7 @@ footer a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 23px;
+  font-size: 1em;
   color: white;
   margin-bottom: 10px;
 }
