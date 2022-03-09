@@ -4,9 +4,11 @@
     margin-top: -25px;
 
     & h1{
-        font-size: 45px;
+        font-size: 1.6em;
         font-family: Shrikhand;
         margin-bottom: 0px;
+        margin-top: 35px;
+        padding-bottom: 10px;
         box-shadow: 1px 20px 20px rgb(191, 191, 191);
         width: 100%;
         text-align: center;
@@ -15,12 +17,13 @@
 
     ul{
         padding-left: 0;
+        margin-top: 0;
     }
 
     img{
-        width: 25px;
-        height: 25px;
-        margin: -45px 0px 35px 35px;
+        width: 15px;
+        height: 15px;
+        margin: -44px 0px 36px 35px;
     }
 
 }
