@@ -1,6 +1,6 @@
 @import "base/body";
 
-@import "pages/acueil";
+@import "pages/accueil";
 
 @import "layout/header";
 
@@ -10,4 +10,8 @@
 
 @import "composants/buttons";
 
-@import "pages/restaurant"
+@import "pages/restaurant";
+
+@import "composants/like-btn";
+
+@import "utils/keyframes";

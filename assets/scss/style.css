@@ -233,19 +233,11 @@ a {
   margin-top: 18px;
 }
 
-.section__coeur--1:hover {
-  color: #9356dc;
-}
-
 .section__coeur--2 {
   position: absolute;
   font-size: 25px;
   right: 35px;
   margin-top: 18px;
-}
-
-.section__coeur--2:hover {
-  color: #9356dc;
 }
 
 .section__coeur--3 {
@@ -255,19 +247,11 @@ a {
   margin-top: 18px;
 }
 
-.section__coeur--3:hover {
-  color: #9356dc;
-}
-
 .section__coeur--4 {
   position: absolute;
   font-size: 25px;
   right: 35px;
   margin-top: 18px;
-}
-
-.section__coeur--4:hover {
-  color: #9356dc;
 }
 
 .section__nouveau--1 {
@@ -464,7 +448,7 @@ button:hover {
   padding-top: 40px;
 }
 
-.section-restaurant__h1 img {
+.section-restaurant__h1 i {
   height: 26px;
   position: absolute;
   right: 20px;
@@ -516,5 +500,48 @@ button:hover {
   font-family: Roboto-light;
   position: absolute;
   right: 20px;
+}
+
+.like {
+  color: black;
+  cursor: pointer;
+}
+
+.like:hover {
+  -webkit-animation: like 0.3s ease-in-out;
+          animation: like 0.3s ease-in-out;
+  display: inline-block;
+  background: -webkit-gradient(linear, right top, left top, from(#9356dc), color-stop(#b35cdc), color-stop(#cf64dc), color-stop(#e86edb), to(#ff79da));
+  background: linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
+  opacity: 1;
+  background-clip: text;
+  color: transparent;
+  font-weight: bold;
+  width: 25px;
+  height: 25px;
+}
+
+@-webkit-keyframes like {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes like {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 /*# sourceMappingURL=style.css.map */
