@@ -59,11 +59,18 @@ a {
   background-color: #EAEAEA;
   width: 100%;
   height: 45px;
-  z-index: 1;
 }
 
 .header__nav__text i {
-  margin-right: 45px;
+  z-index: 3;
+  margin-right: -35px;
+}
+
+.header__nav__text input {
+  border: none;
+  background: #eaeaea;
+  font-size: 1rem;
+  text-align: center;
 }
 
 .aside__top {
