@@ -9,3 +9,17 @@
         opacity: 1;
     }
 }
+@keyframes loading {
+    0%{
+        color: #9356dc;
+        text-shadow: 0 0 7px #9356dc;
+    }
+    90%{
+        color: #484848;
+        text-shadow: none;
+    }
+    100%{
+        color: #9356dc;
+        text-shadow: #9356dc;
+    }
+}

@@ -45,6 +45,77 @@ a {
   color: black;
 }
 
+.loader {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 99;
+}
+
+.loader__title {
+  color: #484848;
+  font-size: 20px;
+  letter-spacing: 5px;
+  font-family: Shrikhand;
+  -webkit-animation: loading 1.2s linear infinite;
+          animation: loading 1.2s linear infinite;
+}
+
+.loader__title:nth-child(1) {
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+}
+
+.loader__title:nth-child(2) {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+
+.loader__title:nth-child(3) {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+
+.loader__title:nth-child(4) {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+}
+
+.loader__title:nth-child(5) {
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+.loader__title:nth-child(6) {
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+}
+
+.loader__title:nth-child(7) {
+  -webkit-animation-delay: 0.7s;
+          animation-delay: 0.7s;
+}
+
+.loader__title:nth-child(8) {
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+}
+
+.loader__title:nth-child(9) {
+  -webkit-animation-delay: 0.9s;
+          animation-delay: 0.9s;
+}
+
 .header__nav__text {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -491,6 +562,7 @@ button:hover {
   position: relative;
   -webkit-box-shadow: 0px 1px 5px #b5b5b5;
           box-shadow: 0px 1px 5px #b5b5b5;
+  overflow: hidden;
 }
 
 .section-restaurant li h4 {
@@ -536,7 +608,6 @@ button:hover {
           transform: rotate(360deg);
 }
 
-/* en faire une mixin*/
 .valide {
   background-color: #99e2d0;
   width: 50px;
@@ -610,6 +681,36 @@ button:hover {
   }
   100% {
     opacity: 1;
+  }
+}
+
+@-webkit-keyframes loading {
+  0% {
+    color: #9356dc;
+    text-shadow: 0 0 7px #9356dc;
+  }
+  90% {
+    color: #484848;
+    text-shadow: none;
+  }
+  100% {
+    color: #9356dc;
+    text-shadow: #9356dc;
+  }
+}
+
+@keyframes loading {
+  0% {
+    color: #9356dc;
+    text-shadow: 0 0 7px #9356dc;
+  }
+  90% {
+    color: #484848;
+    text-shadow: none;
+  }
+  100% {
+    color: #9356dc;
+    text-shadow: #9356dc;
   }
 }
 /*# sourceMappingURL=style.css.map */
