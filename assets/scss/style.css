@@ -612,7 +612,7 @@ button:hover {
   transition: -webkit-transform 300ms ease-in-out;
   transition: transform 300ms ease-in-out;
   transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
-  opacity: 0;
+  opacity: 1;
 }
 
 .valide .check {
