@@ -73,7 +73,7 @@ a {
           justify-content: center;
   position: absolute;
   border: 5px solid #99e2d0;
-  width: 50%;
+  width: 70%;
   border-radius: 20px;
   -webkit-animation: border-flicker 4s linear infinite;
           animation: border-flicker 4s linear infinite;
@@ -82,7 +82,7 @@ a {
 .loader h1 {
   color: #9356dc;
   font-family: Shrikhand;
-  font-size: 2em;
+  font-size: 200%;
   letter-spacing: 10px;
   -webkit-animation: text-flicker 3s linear infinite;
           animation: text-flicker 3s linear infinite;
