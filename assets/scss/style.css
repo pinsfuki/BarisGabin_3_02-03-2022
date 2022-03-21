@@ -62,6 +62,7 @@ a {
   z-index: 99;
   -webkit-animation: loader 2.5s ease-in-out 3s forwards;
           animation: loader 2.5s ease-in-out 3s forwards;
+  pointer-events: none;
 }
 
 .loader__text {

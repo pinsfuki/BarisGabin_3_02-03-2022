@@ -13,6 +13,7 @@ $color4:#99e2d0af;
     align-items: center;
     z-index: 99;
     animation: loader 2.5s ease-in-out 3s forwards;
+    pointer-events: none;
 
 
     &__text{
