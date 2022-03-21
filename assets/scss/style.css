@@ -63,6 +63,7 @@ a {
   -webkit-animation: loader 2.5s ease-in-out 3s forwards;
           animation: loader 2.5s ease-in-out 3s forwards;
   pointer-events: none;
+  visibility: hidden;
 }
 
 .loader__text {
@@ -159,7 +160,7 @@ a {
 
 .nav__fonctionnement h1 {
   margin-left: 30px;
-  font-size: 1.3em;
+  font-size: 1.5em;
 }
 
 .nav__fonctionnement ul {
@@ -177,12 +178,15 @@ a {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
   background-color: #F6F6F6;
-  margin: 25px 0px 25px 0;
-  padding: 10px;
+  margin: 15px 20px 15px 30px;
+  padding: 25px;
   border-radius: 20px;
   -webkit-box-shadow: 0px -0px 1px lightgray;
           box-shadow: 0px -0px 1px lightgray;
+  position: relative;
 }
 
 .nav__fonctionnement li:hover {
@@ -195,8 +199,8 @@ a {
 
 .nav__fonctionnement li :nth-child(1) {
   position: absolute;
-  left: 35px;
-  font-size: 12px;
+  left: -10px;
+  font-size: 16px;
   color: white;
   background-color: #9356dc;
   border: 1px solid #9356dc;
@@ -209,6 +213,26 @@ a {
   margin-right: 30px;
   font-size: 1.3em;
   color: #636363;
+}
+
+@media screen and (min-width: 768px) {
+  .nav__fonctionnement ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: .9em;
+  }
 }
 
 .section {

@@ -48,7 +48,7 @@
 
     h1{
         margin-left: 30px;
-        font-size: 1.3em;
+        font-size: 1.5em;
     }
 
     ul{
@@ -60,11 +60,13 @@
         display: flex;
         align-items: center;
         justify-content:flex-start;
+        flex-wrap: nowrap;
         background-color: #F6F6F6;
-        margin: 25px 0px 25px 0;
-        padding: 10px;
+        margin: 15px 20px 15px 30px;
+        padding: 25px;
         border-radius: 20px;
         box-shadow: 0px -0px 1px lightgray;
+        position: relative;
 
         &:hover{
             background-color: #F5EDFF;
@@ -79,8 +81,8 @@
 
     li :nth-child(1){
         position: absolute;
-        left: 35px;
-        font-size: 12px;
+        left: -10px;
+        font-size: 16px;
         color: white;
         background-color: #9356dc;
         border: 1px solid #9356dc;
@@ -96,6 +98,19 @@
         color: #636363;
     }
 
+}
+
+@media screen and (min-width:768px) {
+    .nav__fonctionnement{
+        ul{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            font-size: .9em;
+        }
+    }
 }
 
 .section{
@@ -118,17 +133,18 @@
         align-items: center;
         flex-direction: column;
         padding: 0;
-    }
 
-    ul :nth-child(4){
-        margin-bottom: 70px;
-    }
+        :nth-child(4){
+            margin-bottom: 70px;
+        }
 
-    ul img{
-        border-radius: 15px 15px 0 0;
-        width: 100%;
-        box-shadow: 0px -3px 10px grey;
-        height: 200px;
+        img{
+            border-radius: 15px 15px 0 0;
+            width: 100%;
+            box-shadow: 0px -3px 10px grey;
+            height: 200px;
+        }
+    
     }
 
     li{
