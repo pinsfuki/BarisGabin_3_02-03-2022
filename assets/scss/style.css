@@ -18,22 +18,22 @@ body img {
 
 @font-face {
   font-family: Shrikhand;
-  src: url(assets/fonts/Shrikhand/Shrikhand-Regular.ttf);
+  src: url(../../../assets/fonts/Shrikhand/Shrikhand-Regular.ttf);
 }
 
 @font-face {
   font-family: Roboto;
-  src: url(assets/fonts/roboto/Roboto-Regular.ttf);
+  src: url(../../../assets/fonts/roboto/Roboto-Regular.ttf);
 }
 
 @font-face {
   font-family: Roboto-thin;
-  src: url(assets/fonts/roboto/Roboto-Thin.ttf);
+  src: url(../../../assets/fonts/roboto/Roboto-Thin.ttf);
 }
 
 @font-face {
   font-family: Roboto-light;
-  src: url(assets/fonts/roboto/Roboto-Light.ttf);
+  src: url(../../../assets/fonts/roboto/Roboto-Light.ttf);
 }
 
 ul {
@@ -482,19 +482,19 @@ body {
 }
 
 .body-francaise {
-  background-image: url(assets/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg);
+  background-image: url(../../../assets/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg);
 }
 
 .body-enchantee {
-  background-image: url(assets/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg);
+  background-image: url(../../../assets/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg);
 }
 
 .body-gout {
-  background-image: url(assets/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
+  background-image: url(../../../assets/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
 }
 
 .body-delice {
-  background-image: url(assets/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg);
+  background-image: url(../../../assets/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg);
 }
 
 button {
@@ -711,6 +711,7 @@ button:hover {
   transition: transform 500ms ease-in-out;
   transition: transform 500ms ease-in-out, -webkit-transform 500ms ease-in-out;
   color: #fff;
+  position: initial;
 }
 
 @media screen and (min-width: 1280px) {
@@ -730,7 +731,6 @@ button:hover {
     position: initial;
   }
   .section-restaurant__h3 {
-    margin-right: 400px;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
